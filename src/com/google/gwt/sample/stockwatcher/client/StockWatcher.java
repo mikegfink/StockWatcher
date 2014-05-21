@@ -33,13 +33,9 @@ public class StockWatcher implements EntryPoint {
 			+ "attempting to contact the server. Please check your network "
 			+ "connection and try again.";
 
-	private static final int REFRESH_INTERVAL = 5000; // ms
+	private static final int REFRESH_INTERVAL = 5065; // ms
 	private VerticalPanel mainPanel = new VerticalPanel(); 
 	private FlexTable stocksFlexTable = new FlexTable(); 
-	private HorizontalPanel addPanel = new HorizontalPanel(); 
-	private TextBox newSymbolTextBox = new TextBox(); 
-	private Button addStockButton = new Button("Add"); 
-	private Label lastUpdatedLabel = new Label();
 	private ArrayList<String> stocks = new ArrayList<String>();
 	/**
 	 * Create a remote service proxy to talk to the server-side Greeting service.
