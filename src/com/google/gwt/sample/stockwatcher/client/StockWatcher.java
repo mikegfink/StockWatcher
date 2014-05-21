@@ -33,7 +33,7 @@ public class StockWatcher implements EntryPoint {
 			+ "attempting to contact the server. Please check your network "
 			+ "connection and try again.";
 
-	private static final int REFRESH_INTERVAL = 5000; // ms
+	private static final int REFRESH_INTERVAL = 500; // msoconfused
 	private VerticalPanel mainPanel = new VerticalPanel(); 
 	private FlexTable stocksFlexTable = new FlexTable(); 
 	private HorizontalPanel addPanel = new HorizontalPanel(); 
